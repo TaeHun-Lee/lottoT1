@@ -1,25 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+초기 화면에서 조회하고 싶은 로또 회차 번호를 입력하고, (현시점 최신회차 801회)
+텍스트 입력으로 자동 혹은 수동으로 추첨 방식을 입력합니다.
+등수별로 출력되는 이미지가 달라집니다. (수동방식으로 확인 추천)
+input에서 자동/수동 입력방식 결정하는 것을 text 입력 방식이 아니라 button 클릭 방식으로 설정하려고 하였으나
+element로 받아지는 JS 입력값을 어떻게 rb 파일에 할당하는지 방법을 모르겠어서 일단 주석으로 두었습니다.
+이것은 후에 더 공부해보고 고민할 여지로 남겨두겠습니다.
 # lottoT1
