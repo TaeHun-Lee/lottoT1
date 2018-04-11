@@ -10,12 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_04_10_083214) do
+ActiveRecord::Schema.define(version: 2018_04_11_043020) do
 
   create_table "lottos", force: :cascade do |t|
     t.string "lotton"
+    t.string "choice"
+    t.integer "lbonum"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "lttoarr"
+    t.string "lttorandarr"
+    t.string "lttogetarr"
   end
 
 end
